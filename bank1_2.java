@@ -46,8 +46,8 @@ public class bank1_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the customer details");
-        BankCustomer c1 = new BankCustomer("123", "abc", "abc@gmail.com", 12345678, 77442231, 10000);
-        BankCustomer c2 = new BankCustomer("456", "pqr", "pqr@gmail.com", 87654321, 99221131, 100);
+        BankCustomer c1 = new BankCustomer("123", "abcd", "abcd@gmail.com", 12345678, 77442231, 10000);
+        BankCustomer c2 = new BankCustomer("456", "pqrs", "pqrs@gmail.com", 87654321, 99221131, 100);
 
         c1.display();
         c1.deposite(103131);
